@@ -1,7 +1,8 @@
-def get_otnosheniye(age, weight):
-    return age/weight
+def get_otnosheniye(age: int, weight: int) -> int:
+    return age / weight
 
-def get_conclusion(weight, q_of_fr):
+
+def get_conclusion(weight: int, q_of_fr: int) -> str:
     if q_of_fr >= weight:
         return f"Молодец,твой вес {weight} кг, а количество друзей {q_of_fr}"
     else:

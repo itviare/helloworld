@@ -14,6 +14,6 @@ def get_koldr():
     c = int(input("Вводи сколько у тебя друзей быстрее: "))
     return c
 
-def get_name():
+def get_name() -> str:
     n = input("Как тебя называть?: ")
     return n
